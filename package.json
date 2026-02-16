@@ -1,0 +1,23 @@
+{
+  "name": "pw-api-testing-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^17.3.1",
+    "genson-js": "^0.0.8",
+    "typescript": "^5.9.3"
+  }
+}
